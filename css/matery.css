@@ -30,8 +30,9 @@
 body {
 	/*background-image: url("/medias/mylike/01.jpg");
 	background-repeat:no-repeat;
-	background-size: cover;*/
-    background-color: #ee6ede6b;
+	background-size: cover;
+    background-color: #ee6ede6b;*/
+	background-image: linear-gradient(to left, #ee6e6e 0%, #0f209dd9 100%);
     margin: 0;
     color: #34495e;
 }
@@ -155,6 +156,7 @@ mark {
 .card {
     border-radius: 10px;
     box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+	background:yellow;
 }
 
 .card .card-image img {
@@ -201,7 +203,8 @@ header .side-nav {
 }
 
 nav {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);
+    /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);*/
+	box-shadow-background:-webkit-linear-gradient( 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12));
 }
 
 header .nav-transparent {
@@ -542,6 +545,7 @@ header .go-back i {
 
 .index-card .card .card-content {
     padding: 20px 40px;
+	color:blue;
 }
 
 @media only screen and (min-width: 1418px) {
